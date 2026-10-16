@@ -1,2 +1,2 @@
-# notepad
-School project for notes! Taking all the notes from classes into one website for everyone to use.
+# Notepad
+Welcome to Notepad! The largest notes archive in Northeast Career & Technical Academy!
