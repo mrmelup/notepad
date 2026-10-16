@@ -5,17 +5,40 @@ body {
     background-color: #f8f8f8;
 }
 
+/* CONTAINERS */
+
 div.container {
     flex: 1;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+div.main-content-container {
+    flex: 1;
+    height: 200px;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+}
+div.text-one {
+    flex: 0.5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1  {
+    font-size: 85px;
+    color: #414141;
+    font-weight: bold;
 }
 
 div.nav-container {
     flex: 1;
     margin-top: 0px;
     display: flex;
-    background-color: #1c1c1c;
+    background-color: #d0d0d0;
     height: 90px;
     display: flex;
     flex-direction: row;
@@ -42,9 +65,14 @@ div.notepad-icon-press {
     align-items: center;
 }
 
+/* IMAGES */
+
 img.icon:hover {
     cursor: pointer;
 }
+
+/* BUTTONS */
+
 button.top-buttons {
     padding: 10px;
     font-family: 'Arial', sans-serif;
